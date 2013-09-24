@@ -1,0 +1,8 @@
+lib/libpakchois.so.1
+lib/libpakchois.so
+lib/libpakchois.la
+lib/libpakchois.a
+include/pakchois/pakchois11.h
+include/pakchois/pakchois.h
+lib/pkgconfig/pakchois.pc
+@dirrm include/pakchois

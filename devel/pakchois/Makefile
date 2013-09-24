@@ -10,6 +10,7 @@ MAINTAINER=     spam@amrx.net
 COMMENT=        PKCS #11 wrapper library
 
 GNU_CONFIGURE=  yes
-CONFIGURE_ARGS= --without-libintl-prefix
+CONFIGURE_ARGS= --without-libintl-prefix\
+		-enable-module-path=/usr/local/lib
 
 .include <bsd.port.mk>
