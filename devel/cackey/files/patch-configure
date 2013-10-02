@@ -1,0 +1,11 @@
+--- ./configure.orig	2013-10-01 15:02:33.000000000 -0700
++++ ./configure	2013-10-01 15:03:09.000000000 -0700
+@@ -5214,7 +5214,7 @@
+ 	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for how to set version script" >&5
+ $as_echo_n "checking for how to set version script... " >&6; }
+ 
+-	for tryaddldflags in "-Wl,--version-script -Wl,${VERSIONSCRIPT}" "-Wl,-exported_symbols_list -Wl,${SYMFILE}"; do
++	for tryaddldflags in "-Wl,--version-script -Wl,${VERSIONSCRIPT}"; do
+ 		LDFLAGS="${SAVE_LDFLAGS} ${tryaddldflags}"
+ 		cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
